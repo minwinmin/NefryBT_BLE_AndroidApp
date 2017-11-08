@@ -22,5 +22,5 @@ BLE関連
 https://sites.google.com/view/ble-startup/%E5%AE%9F%E8%B7%B5
 
 MIT App Inventor関連  
-https://garchiving.com/how-to-ble-mit-app-inventor2/
+https://garchiving.com/how-to-ble-mit-app-inventor2/  
 ※今回はMIT App Inventorを使用します．MIT App Inventor2もありますがbeta版で挙動が良くなかったです．
