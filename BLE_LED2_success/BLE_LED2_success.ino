@@ -87,7 +87,12 @@ void setup() {
   BLEDevice::init("MyESP32");
 
   // Create the BLE Server
+  /////////////////////////////////////////////////////////////////////
+  //BLEServer *pServer = BLEDevice::createServer();
   BLEServer *pServer = new BLEServer();
+  ///上の2行は同じ意味のようだが，Nefry BTのバージョンによってエラーが出るので，その都度，どちらかを置き換えて使うこと．
+  ///最新のバージョンだと上の一行が正しい
+  //////////////////////////////////////////////////////////////////////
   pServer->setCallbacks(new MyServerCallbacks());//severにclassを渡す
 
   // Create the BLE Service
